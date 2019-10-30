@@ -305,7 +305,7 @@ footer a {
 	}
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 850px) {
 	body {
 		margin: 0 0.5%;
 	}
@@ -313,6 +313,13 @@ footer a {
 	.r_div, .l_div {
 		margin-right: 0;
 		width: 100%;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.main_color_block {
+	display: flex;
+	flex-flow: column;
 	}
 }
 
