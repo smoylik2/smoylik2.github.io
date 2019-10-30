@@ -316,7 +316,7 @@ footer a {
 	}
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
 	.main_color_block {
 	display: flex;
 	flex-flow: column;
