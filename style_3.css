@@ -346,4 +346,8 @@ footer a {
 	li h5 {
 		width: 90%;
 	}
+	li:before {
+		position: absolute;
+		left: -9999px;
+	}
 }
