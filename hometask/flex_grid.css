@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+	font-size: medium;
+}
+
 .new-task {
 	font-size: 24px;
 	text-align: center;
@@ -87,7 +91,7 @@
 	display: flex;
 	flex-flow: wrap;
 	align-content: stretch;
-	font-size: 25px;
+	font-size: 1.75em;
 	font-weight: bold;
 	text-align: center;
 	padding: 1px;
@@ -198,7 +202,7 @@
 	background: #F7A623;
 }
 
-/* task 8 */
+/* task 4 */
 
 .flex-4 {
 	width: 99%;
@@ -208,7 +212,7 @@
 	padding: 1px;
 	display: flex;
 	flex-flow: wrap;
-	font-size: 25px;
+	font-size: 1.75em;
 	font-weight: bold;
 	overflow: hidden;
 }
@@ -475,4 +479,26 @@
 .grid-3__div-7{
 	grid-area: blue-2;
 	background: #74C1F9;
+}
+
+
+@media screen and (max-width: 1000px) {
+	.caption {
+		font-size: 5em;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.caption {
+		font-size: 2em;
+	}
+	.flex-2 {
+		font-size: 1em;
+	}
+	.flex-4__div-2 span,
+	.flex-4__div-4 span {
+		display: block;
+		transform: rotate(90deg);
+		margin-left: 1em;
+	}
 }
